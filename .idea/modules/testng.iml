@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="testng" external.linked.project.path="$MODULE_DIR$/../../../testng" external.root.project.path="$MODULE_DIR$/../../../testng" external.system.id="GRADLE" external.system.module.group="testng" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../testng/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../testng/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../testng">
+      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../testng/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../testng/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../testng/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../360安全浏览器下载/testng-6.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
