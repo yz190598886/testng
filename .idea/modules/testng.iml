@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="testng" external.linked.project.path="$MODULE_DIR$/../../../testng" external.root.project.path="$MODULE_DIR$/../../../testng" external.system.id="GRADLE" external.system.module.group="testng" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="testng" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="testng" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../testng/out/production/classes" />
-    <output-test url="file://$MODULE_DIR$/../../../testng/out/test/classes" />
+    <output url="file://$MODULE_DIR$/../../out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../testng">
-      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../testng/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../testng/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../testng/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../testng/out" />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -26,5 +26,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="testng-6.10" level="project" />
   </component>
 </module>
