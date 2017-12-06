@@ -1,4 +1,5 @@
 package testng;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class test {
@@ -13,7 +14,9 @@ public void aSlowTest() {
         }
 
 @Test()
-public void aFastTest() {
+public void  FastTest() {
+        int a=0;
+        Assert.assertEquals(a,1);
         System.out.println("fast test");
         System.out.println("-------------------------------");
         }
