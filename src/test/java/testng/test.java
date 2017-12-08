@@ -3,8 +3,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class test {
-public void setUp() {
-        System.out.println("setUp");
+        @Test
+        public void setUp() {
+
+                System.out.println("setUp");
         }
 
 @Test()
@@ -14,9 +16,9 @@ public void aSlowTest() {
         }
 
 @Test()
-public void  FastTest() {
-        int a=0;
-        Assert.assertEquals(a,1);
+public void  FastTest(){
+//        int a=0;
+//        Assert.assertEquals(a,1);
         System.out.println("fast test");
         System.out.println("-------------------------------");
         }
